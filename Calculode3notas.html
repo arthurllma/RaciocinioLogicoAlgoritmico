@@ -1,0 +1,27 @@
+<!----- Calcular 3 notas entre 0.0 e 10 e calcular a média aritmética delas.----->
+
+<script>
+
+  var nota1 = parseFloat(prompt("Digite a primeira nota"));
+  var nota2 = parseFloat(prompt("Digite a segunda nota"));
+  var nota3 = parseFloat(prompt("Digite a terceira nota"));
+  var media = (nota1 + nota2 + nota3) / 3;
+  console.log("A média é: " + media.toFixed(1));
+  if (media >= 8.1 && media <= 10) {
+    console.log("A");
+  }
+  if (media >= 7.1 && media <= 8) {
+    console.log("B");
+  }
+  if (media >= 6.1 && media <= 7) {
+    console.log("C");
+  }
+  if (media >= 5.1 && media <= 6) {
+    console.log("D");
+  }
+  if (media >= 4.1 && media <= 5) {
+    console.log("E");
+  }
+
+
+</script>
