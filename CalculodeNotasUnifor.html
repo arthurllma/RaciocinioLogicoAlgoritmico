@@ -1,0 +1,22 @@
+<!-- Calcular 2 notas, se maior que 4, então vai para a terceira etapa -->
+
+<script>
+
+  var av1 = parseFloat(prompt("Digite a nota da AV1"));
+  var av2 = parseFloat(prompt("Digite a nota da AV2"));
+
+  var mp = (av1 + av2) / 2;
+
+  if (mp >= 4) {
+    var av3 = parseFloat(prompt("Digite a nota da AV3"));
+  } else {
+    document.write("Reprovado!");
+  }
+
+  var mFinal = (mp + av3) / 2;
+
+  if (mFinal >= 5) {
+    document.write("Aprovado!");
+  }
+
+</script>
