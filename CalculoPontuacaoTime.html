@@ -1,0 +1,20 @@
+<script>
+
+  var vitorias = parseInt(prompt("Digite o número de vitórias"));
+  var derrotas = parseInt(prompt("Digite o número de derrotas"));
+  var empates = parseInt(prompt("Digite o número de empates"));
+
+  var pontos = 3 * vitorias + 1 * empates;
+
+  console.log("Pontos" + pontos);
+
+  if (pontos >= 20) {
+    console.log("O time está indo muito bem!");
+  } if (pontos > 12 && pontos < 19) {
+    console.log("Ok");
+  }
+  if (pontos <= 12) {
+    console.log("O time está indo mal");
+  }
+
+</script>
